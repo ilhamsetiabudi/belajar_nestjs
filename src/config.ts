@@ -7,9 +7,9 @@ export const mysql = () => {
   return {
     host: process.env.MYSQL_HOST,
     port: process.env.MYSQL_PORT,
-    username: process.env.MYSQL_USERNAME,
+    username: process.env.MYSQL_USER,
     password: process.env.MYSQL_PASSWORD,
-    database: process.env.MYSQL_DATABASE_NAME,
+    database: process.env.MYSQL_DBNAME,
   };
 };
 
